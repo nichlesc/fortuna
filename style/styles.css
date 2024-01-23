@@ -40,5 +40,16 @@ body {
   text-align: center;
 }
 
-@media screen and (max-width: 900) {
+@media screen and (max-width: 900px) {
+  .card-logo img {
+    width: 90vw;
+    margin: 15px auto;
+  }
+  .card-direita {
+    font-size: 25px;
+  }
+  .card-esquerda {
+    font-size: 25px;
+    line-height: 30px;
+  }
 }
