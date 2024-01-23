@@ -1,0 +1,44 @@
+body {
+  background: rgb(41, 2, 2);
+
+  margin: 0;
+}
+.card-logo {
+  display: flex;
+  justify-content: center;
+}
+.card-logo img {
+  width: 50vw;
+  margin: 15px auto;
+}
+.texto-dourado,
+.card-direita a {
+  color: #ffd700;
+}
+.card-principal {
+  color: whitesmoke;
+}
+.card-esquerda {
+  font-size: 20px;
+  padding: 10px 15px;
+  text-align: justify;
+}
+.card-direita {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.card-direita img {
+  width: 50px;
+  justify-content: center;
+  padding: 5px;
+}
+.card-direita a {
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 900) {
+}
